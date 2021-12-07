@@ -1,0 +1,423 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+
+
+
+
+
+
+/* Header section start */
+#my-header{
+    width:100%;
+    background-color:#fff;
+}
+#my-header .row{
+    display:flex;
+    justify-content: space-between;
+}
+#my-header .h-logo{
+    font-size:25px;
+    font-weight: 800;
+    color:red;
+    width:20%;  
+    margin-top:5px;
+}
+#my-header .h-logo span{
+    color:#2a1e19;
+}
+#my-header .h-menu{
+    width:80%;
+}
+#my-header .h-menu ul {
+    text-align: right;
+    margin-left: inherit;
+    padding-left: inherit;
+}
+#my-header .h-menu ul li{
+    display:inline-block;
+    margin:0px 10px;
+}
+#my-header .h-menu ul:last-child li{
+    margin-right:inherit;
+}
+#my-header .h-menu ul li a {
+    color: #111;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+    margin-left: 19px;
+    font-size: 15px;
+}
+#my-header .h-menu ul li a:hover{
+    color:red;
+    transition:all 0.3s ease;
+}
+/* Header section end */
+
+
+
+
+
+
+
+/* Home section start */
+#home-secction{
+    background-image:url('images/rasel3.jpg');
+    background-position:center;
+    background-size:cover;
+    padding:250px 0px;
+    position:relative;
+    z-index: 1;
+}
+#home-secction::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:#11111194;
+    z-index: -1;
+}
+#home-secction .home-content {
+    width: 39%;
+    color: #fff;
+}
+#home-secction .home-content h1 {
+    font-size: 46px;
+    line-height: 58px;
+}
+#home-secction .home-content p {
+    line-height: 20px;
+    font-size:14px;
+    text-transform:capitalize;
+}
+#home-secction .home-content button {
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    background: red;
+    color: #fff;
+    margin-top: 21px;
+    border: inherit;
+    cursor: pointer;
+}
+#home-secction .scrol-icon {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    color: #111;
+    z-index: 9999;
+    background: #fff;
+    font-size: 40px;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+    cursor:pointer;
+}
+/* Home section end */
+
+
+
+
+
+
+
+
+
+/* Skills section start */
+#skills-section{
+    padding:55px 0px;
+}
+#skills-section .row{
+    display:flex;
+    justify-content:space-between;
+}
+#skills-section .container .s-content{
+    width:70%;
+    margin:auto;
+    text-align:center;
+}
+#skills-section .container .s-content h1 {
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 0px;
+}
+#skills-section .container .s-content p {
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #787878;
+}
+#skills-section .container .s-card {
+    width: 33%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px 90px;
+    margin-top:50px;
+}
+#skills-section .container .s-card .s-icon {
+    font-size: 25px;
+    background: #374054;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    color: #fff;
+    margin: auto;
+    line-height: 60px;
+    font-weight: inherit;
+    border: 5px solid #6075a3;
+}
+#skills-section .container .s-card .s-text {
+    font-size: 13px;
+    margin-top: 12px;
+    font-weight: 700;
+}
+#skills-section .container .s-card .background {
+    background: red;
+    border: 5px solid #f17676;
+    text-align: center;
+}
+/* Skills section end */
+
+
+
+
+
+
+
+
+/* Learn process works section start */
+#process-section{
+    background:#d7d7d7;
+    padding:70px 0px;
+}
+#process-section .row{
+    display:flex;
+    justify-content:space-around;
+}
+#process-section .p-left-content {
+    width: 43%;
+}
+#process-section .p-left-content h1 {
+    font-weight: 600;
+    font-size: 27px;
+    margin-top:inherit;
+}
+#process-section .p-left-content p {
+    font-size: 12.5px;
+    margin-top: inherit;
+    margin-bottom: 45px;
+    color:#727272;
+}
+#process-section .p-left-content button {
+    border: inherit;
+    background: transparent;
+}
+#process-section .p-left-content button a {
+    color: #fff;
+    background: red;
+    display: block;
+    padding: 6px 15px;
+}
+#process-section .p-right-content{
+    width:50%;
+}
+#process-section .p-right-content .p-vido {
+    height: 197px;
+    width: 370px;
+    margin-left: 75px;
+    border: inherit;
+    box-shadow:0 0 10px #000000;
+}
+/* Learn process works section end */
+
+
+
+
+
+
+
+/* Features section start */
+#features-section{
+    padding:50px 0px;
+}
+#features-section .row-1{
+    display:flex;
+    justify-content: space-between;
+}
+#features-section .row-2{
+    display:flex;
+    justify-content:space-between;
+}
+#features-section .container .f-content{
+    width:65%;
+    margin:auto;
+    text-align:center;
+}
+#features-section .container .f-content h1 {
+    margin-top: 0;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+#features-section .container .f-content p {
+    line-height: 25px;
+    color: gray;
+}
+#features-section .container .card {
+    width: 27%;
+    transition: all 0.5s ease;
+    text-align: center;
+    border: 2px solid #e1e1e1;
+    padding: 15px 5px;
+    margin-top: 45px;
+}
+#features-section .container .card:hover{
+    box-shadow:0 0 10px #000000;
+}
+#features-section .container .card:hover .icon{
+    color:red;
+    transition:all 0.5s ease;
+}
+#features-section .container .card .icon {
+    font-size: 35px;
+    margin-bottom: 28px;
+    transition:all 0.5s ease;
+
+}
+    #features-section .container .card h3 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+#features-section .container .card p{
+    color:gray;
+}
+#features-section .container{
+    text-align:center;
+}
+#features-section .container button {
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 4px 10px;
+    color: red;
+    cursor: pointer;
+}
+/* Features section end */
+
+
+
+
+
+
+/* Footer section start */
+#my-footer{
+    background-color:#111;
+    padding:50px 0px;
+}
+#my-footer .row{
+    display: flex;
+    justify-content: space-between;
+}
+#my-footer h1 {
+    font-size: 20px;
+    color: red;
+    text-transform: uppercase;
+    margin-bottom:25px;
+}
+#my-footer .contact-box{
+    width:30%;
+}
+#my-footer .contact-box .addres {
+    margin-left: inherit;
+    padding-left: inherit;
+}
+#my-footer .contact-box .addres li {
+    margin: 11px 0px;
+    color: gray;
+}
+#my-footer .contact-box .addres li span {
+    margin-right: 10px;
+    color: red;
+}
+#my-footer .socil-icon {
+    padding-left: inherit;
+}
+#my-footer .socil-icon li {
+    display: inline-block;
+}
+#my-footer .socil-icon li a {
+    margin-right: 5px;
+    color: #111;
+    background: gray;
+    height: 25px;
+    width: 25px;
+    margin-top: 25px;
+    display: block;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 3px;
+    transition:all 0.5s ease;
+}
+#my-footer .socil-icon li a:hover{
+    background-color: red;
+    color:#fff;
+}
+#my-footer .use-link{
+    width:20%;
+}
+#my-footer .use-link .f-link {
+    padding-left: inherit;
+}
+#my-footer .use-link .f-link li {
+    margin-bottom: 9px;
+}
+#my-footer .use-link .f-link li a {
+    color: gray;
+    transition:all 0.5s ease;
+}
+#my-footer .use-link .f-link li a:hover{
+    color:red;
+}
+#my-footer .use-link .f-link li a span {
+    margin-right: 5px;
+}
+#my-footer .newsletter{
+    width:34%;
+}
+#my-footer .newsletter p {
+    color: gray;
+    margin-bottom:35px;
+}
+#my-footer .newsletter form input {
+    padding: 6px 5px;
+    background: transparent;
+    border: 1px solid #404040;
+    color: gray;
+    border-radius: 3px;
+}
+#my-footer .newsletter form button {
+    padding: 7px 20px;
+    margin-left: -5px;
+    border-radius: 3px;
+    border: inherit;
+    background: red;
+    color: #fff;
+    cursor: pointer;
+}
+/* Footer section end */
